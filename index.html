@@ -1,9 +1,112 @@
+<!DOCTYPE html>
 <html>
- 
+<head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Roboto+Mono:ital,wght@0,200;1,200&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Alumni+Sans+Pinstripe&family=Figtree&family=Inconsolata&family=Roboto+Mono&family=Rubik+Dirt&display=swap');
+  </style>
+  <link rel='stylesheet' href='file:///Users/edwardbaum/Desktop/Test%20Website/WebsiteDesignSystem.css'>
+</head>
+
+<!--Main Section of Website-->
+
 <body>
-  <h1>EDDIE BAUM</h1>
-  <p>Welcome to my website! Espero que este funciona!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+<!-- Nav Bar Section-->
+<!--Tutorials on youtube leave the anchor value empty but it only work with at least a space incerted-->
+<a name="top"> </a>
+<br>
+  <div class="navbar">
+    <a class="navlink" href="#top">Top</a>
+    <a class="navlink" href="#bottom">Bottom</a>
+    <a class="navlink" href="#top">Los Fuentes</a>
+    <a class="navlink" href="#loscolores">Los Colores</a>
+    <a class="navlink" href="#useoffuentes">Use of Fuentes</a>
+    <a class="navlink" href="#lostabletas">Los Tabletas</a>
+  </div>
+<br>
+
+<!--Fonts Section-->    
+<h1 class="h1catagory">Los Fuentes</h1>
+<br>
+  <div class="fontsdivcontainer">
+    <h1 class="h1one">Website Design System <span class="h1">- Aboreto</span></h1>
+    <h2 class="h2two">Website Design System <span class="h1">- Alumni Sans Pinstripe</span></h2>
+    <h2 class="h2three">Website Design System <span class="h1">- Figtree</span></h2>
+    <h2 class="h2four">Website Design System <span class="h1">- Inconsolata</span></h2>
+    <h2 class="h2five">Website Design System <span class="h1">- Roboto Mono</span></h2>
+    <p class="fontnote">Fonts imported from <a href="https://fonts.google.com" target="blank">Google Fonts</a></p>
+  </div>
+
+<!--Circle Section with Colors-->
+<a id='loscolores'> </a>
+<br>
+<h1 class="h1catagory">Los Colores</h1>
+<br>
+  <div class="circlecontainer">
+      <div class="circle" id="latte"><span class="colornames latte">Latte</span>
+      </div>
+      <div class="circle" id="periwinkle"><span class="colornames periwinkle">Periwinkle</span>
+      </div>
+      <div class="circle" id="plum"><span class="colornames plum">Plum</span>
+      </div>
+      <div class="circle" id="merlot"><span class="colornames merlot">Merlot</span>
+      </div>
+  </div>
+
+<!--Use of Fonts Section-->
+<a id="useoffuentes"> </a>
+<br>
+  <h1 class="h1catagory">Use of Fuentes</h1>
+<br>
+  <div class="usefontcontainer">
+    <h1 class="usefonth1">Main Heading for H1 is 'Aboreto'</h1>
+    <h2 class="usefonth2">Sub Heading for H2 is 'Alumni Sans Pinstripe'</h2>
+    <p class="usefontp">Paragraph font to be used is 'Figtree' at font weight 300.  Enjoy the followign info about sunlight. 
+      The sun is the only star in our solar system and is present at the centre of all the planets. All eight planets revolve around the sun. 
+      The sun is known as a gaseous ball as it is made up of different gases. 
+      It is a massive ball of gases but looks very small from the earth because of its distance. 
+      The suns diameter is 110 times that of the earth, and the sunlight reaches the earth in 8 minutes and 17 seconds. 
+      It is a massive source of heat and light to the earth. Humans, plants, animals, etc., cannot grow without the suns rays. 
+      Our days cannot start without the sunrise. 
+      When it is a cloudy day or a winter morning, we all wait for the sun to come out, but we take a lot of protection to stay away from the sun when it is a hot summer day.       Without the sun, the whole world would turn into darkness. 
+      It is mainly needed during the winter days. 
+      The sunrays are needed for humans as it is a rich source of vitamin D. But not all the sunrays are essential. A few rays called ultraviolet rays are harmful to the environment.</p>
+  </div>
+<a id="lostabletas"> </a>
+
+<br>
+  <h1 class="h1catagory">Las Tabletas</h1>
+<br>
+
+<!-- TABLES SECTION -->
+<div class="tablecontainer">
+<table class="table">
+<caption class="pricingchartcaption">Pricing Chart</caption>
+<thead class="thead">
+  <tr>
+    <td scoup="col" class="displaynone"> </td>
+    <td scoup="col" id="annually">Annually</td>
+    <td scoup="col" id="semiannually">Semi-Annually</td>
+  </tr>
+</thead>
+
+<tbody class="tbody">
+  <tr>
+    <th scope="row" class="throw" id="onetimepayment">One Time Payment</th>
+    <td>$500</td>
+    <td>$300</td>
+  </tr>
+  <tr>
+    <th scope="row" class="throw" id="monthly">Monthly</th>
+    <td>$50</td>
+    <td id="sixty">$60</td>
+  </tr>
+</tbody>
+
+</table>
+</div>
+
+<a id="bottom"> </a>
 </body>
- 
 </html>
